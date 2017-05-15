@@ -5,5 +5,6 @@ public class ServerLauncher {
 	}
 	ServerLauncher(){
 		new Server();
+		System.out.println("Server started");
 	}
 }

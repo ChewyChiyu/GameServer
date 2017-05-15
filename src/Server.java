@@ -1,7 +1,8 @@
+import java.util.ArrayList;
 
 public class Server {
 	protected static boolean isRunning = true;
-	protected static int num = 0;
+	protected static ArrayList<User> players = new ArrayList<User>();
 	protected Server(){
 		new ServerSender();
 		new ServerReader();
